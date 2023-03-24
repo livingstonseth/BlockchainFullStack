@@ -3,7 +3,7 @@ import Web3 from "web3";
 import AssetToken from "./contracts/AssetToken.json";
 
 const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
-const contractAddress = "0x0123456789abcdef0123456789abcdef0123456";
+const contractAddress = "0x4346d736fdbfeC9734880E43AA0751E4EF39dd05";
 
 function App() {
   const [account, setAccount] = useState(null);
